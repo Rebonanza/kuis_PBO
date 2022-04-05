@@ -57,9 +57,9 @@ public class PesertaAnimasi implements lombaAnimasi{
     public String keterangan(){
         String ket;
         if(this.getHasil() < 85){
-            ket = "LOLOS";
-        }else{
             ket = "GAGAL";
+        }else{
+            ket = "LOLOS";
         }
         return ket;
     } 
