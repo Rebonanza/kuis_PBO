@@ -20,13 +20,13 @@ public class App {
                 sekolah = input.nextLine();
                 System.out.println(" === Form Penilaian ===");
                 System.out.println(" *Keterangan : nilai yang valid berada di antara 0-100* ");
-                System.out.print("Input nilai alur cerita : ");
+                System.out.print(" Input nilai alur cerita : ");
                 nilai[0] = input.nextDouble();
-                System.out.print("Input nilai konten : ");
+                System.out.print(" Input nilai konten : ");
                 nilai[1] = input.nextDouble();
-                System.out.print("Input nilai kreativitas : ");
+                System.out.print(" Input nilai kreativitas : ");
                 nilai[2] = input.nextDouble();
-                System.out.print("Input nilai sinematografi : ");
+                System.out.print(" Input nilai sinematografi : ");
                 nilai[3] = input.nextDouble();
                 PesertaAnimasi pesertaAnimasi = new PesertaAnimasi(nama, sekolah, nilai[0], nilai[1], nilai[2], nilai[3]);
                 do{
