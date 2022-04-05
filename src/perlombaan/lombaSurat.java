@@ -1,8 +1,8 @@
 package perlombaan;
 
 public interface lombaSurat {
-  public double strukturSurat();
-  public double isiSurat();
-  public double kreativitas();
-  public double kaidahBahasa();
+  public double nilaiStruktur();
+  public double nilaiIsi();
+  public double nilaiKreativitas();
+  public double nilaiBahasa();
 }
